@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Twooter:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ProMeets-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Twooter:war exploded" />
+    </root>
+  </artifact>
+</component>

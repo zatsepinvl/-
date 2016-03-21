@@ -1,0 +1,253 @@
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: #eeeeee;
+    font-size: 14px;
+}
+
+.main-ui-view {
+    width: 100%;
+    height: 100%;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none;
+}
+
+.mdl-navigation__link.material-icons {
+    margin-right: 10px;
+
+}
+
+.nav_menu_item {
+    padding: 8px 0 0 0;
+    font-weight: 200;
+    font-size: 16px;
+    color: #2e7d32;
+    text-align: left;
+    border-bottom: 2px solid white;
+}
+
+.nav_menu_item:hover {
+    cursor: pointer;
+    border-bottom-color: #ef6c00;
+}
+
+.nav_menu_item:active {
+    background-color: #e8f5e9;
+}
+
+.nav_menu_item .icon {
+    line-height: 100%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.group_menu_item {
+    padding: 8px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #2e7d32;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.group_menu_item:hover {
+    border-bottom-color: #ef6c00;
+    cursor: pointer;
+}
+
+.group_menu_item:active {
+    background-color: #e8f5e9;
+}
+
+.current_meet {
+    width: 100%;
+    height: 40px;
+    color: #ef6c00;
+    font-size: 20px;
+    font-weight: 300;
+    margin: auto;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fafafa;
+}
+
+.current_meet:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+.material-icons.mdl-list__item-icon {
+    vertical-align: middle;
+}
+
+.img-teaser .figcaption {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-teaser .figcaption a {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.img-teaser:hover .figcaption { /* прозрачная область */
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    left: 5px;
+    padding: 5px 10px;
+    opacity: 0.9;
+}
+
+.edit-mode {
+    vertical-align: top;
+    font-size: 16px !important;
+    color: #ef6c00;
+    cursor: pointer;
+}
+
+.md-button.md-raised.primary {
+    background-color: #2e7d32;
+    color: #fff;
+}
+
+.md-button.md-raised.primary:hover {
+    background-color: #2e7d32;
+}
+
+.md-button.accent {
+    background-color: #ef6c00;
+    color: #fff;
+}
+
+.md-button.md-fab.accent:hover {
+    background-color: #ef6c00;
+}
+
+md-input-container.md-block {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+md-input-container .md-errors-spacer {
+    display: none;
+}
+
+table td.label {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #2e7d32;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+}
+
+.md-datepicker-input-container {
+    margin-left: 0;
+    width: 100%;
+}
+
+md-datepicker .md-button.md-icon-button {
+    display: none;
+}
+
+.mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen) > .mdl-layout__header {
+    margin-left: 210px;
+    width: calc(100% - 210px);
+}
+
+.mdl-layout__drawer {
+    width: 210px;
+}
+
+.mdl-navigation__link .material-icons {
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+
+.mdl-badge[data-badge]::after {
+    background-color: #ef6c00;
+    color: #fff;
+}
+
+.mdl-layout__drawer header {
+    width: calc(100% - 16px);
+    background-color: #2e7d32;
+    padding: 20px 0 16px 16px;
+}
+
+.mdl-layout__drawer header img {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border-radius: 50px;
+    background-color: #fafafa;
+}
+
+.mdl-layout__drawer header .username {
+    width: 100%;
+    color: #fafafa;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.mdl-layout__drawer header .email {
+    width: 100%;
+    color: #fafafa;
+    font-size: 12px;
+}
+
+md-toolbar .material-icons {
+    font-size: 20px;
+}
+
+header .material-icons {
+    color: #2e7d32;
+}
+
+.g-sign-up-button {
+
+}
+
+.mdl-grid {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 480px) {
+    .phone {
+        margin: 8px 0 0 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .phone.mdl-cell {
+        margin: 8px 0 0 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.mdl-card {
+    margin: 0;
+}

@@ -1,0 +1,5 @@
+host: mydnswd.no-ip.org
+port: 5432
+db: twooter_db
+login: twadmin
+password: tw_admin

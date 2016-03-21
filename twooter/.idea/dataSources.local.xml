@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - promeets_db@mydnswd.no-ip.org" uuid="4969807c-7d34-4254-a76a-5deee022de92">
+      <secret-storage>master_key</secret-storage>
+      <user-name>pmadmin</user-name>
+      <schema-pattern>promeets_db.pg_catalog promeets_db.public</schema-pattern>
+      <default-schemas>promeets_db.public</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - twooter_db@mydnswd.no-ip.org" uuid="05019942-4964-45e2-b94c-8c183de8be4c">
+      <secret-storage>master_key</secret-storage>
+      <user-name>twadmin</user-name>
+    </data-source>
+  </component>
+</project>
